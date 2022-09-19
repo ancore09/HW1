@@ -20,7 +20,7 @@
                                 <rect key="frame" x="133" y="705" width="148" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Change Color"/>
                                 <connections>
                                     <action selector="buttonWasClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oOe-fD-8Wb"/>
                                 </connections>
@@ -50,6 +50,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I5R-4s-EKJ">
+                                <rect key="frame" x="43" y="677" width="59" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -60,6 +65,7 @@
                         <outlet property="firstView" destination="L5T-Eg-Ikv" id="61e-en-oT3"/>
                         <outlet property="fourthView" destination="sJu-Jg-Q4y" id="bvh-tP-19K"/>
                         <outlet property="secondView" destination="JhB-38-Bta" id="TzN-S4-ZJ9"/>
+                        <outlet property="sixthView" destination="I5R-4s-EKJ" id="SyH-C1-0XM"/>
                         <outlet property="thirdView" destination="0uO-5g-EpS" id="mOV-To-Tjh"/>
                     </connections>
                 </viewController>

@@ -32,12 +32,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var thirdView: UIView!
     @IBOutlet weak var fourthView: UIView!
     @IBOutlet weak var fifthView: UIView!
+    @IBOutlet weak var sixthView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        toggleButton()
         animatedChange()
     }
 
@@ -69,6 +71,7 @@ class ViewController: UIViewController {
         self.thirdView.backgroundColor = .random()
         self.fourthView.backgroundColor = .random()
         self.fifthView.backgroundColor = .random()
+        self.sixthView.backgroundColor = .random()
     }
     
     fileprivate func changeViewRadius() {
@@ -77,6 +80,7 @@ class ViewController: UIViewController {
         self.thirdView.layer.cornerRadius = CGFloat(Int.random(in: 0...30))
         self.fourthView.layer.cornerRadius = CGFloat(Int.random(in: 0...30))
         self.fifthView.layer.cornerRadius = CGFloat(Int.random(in: 0...30))
+        self.sixthView.layer.cornerRadius = CGFloat(Int.random(in: 0...30))
     }
     
     fileprivate func changeViewSizeAndPosition() {
